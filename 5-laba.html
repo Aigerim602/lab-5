@@ -1,0 +1,27 @@
+<script>
+employee= {}
+employee['name'] = "Alain"
+employee['surname'] = "Delon"
+employee['proffession'] = ["Actor"]
+employee.salary = {
+	"february": 2000,
+	"July": 900,
+	"August": 9500
+       
+}
+human = {
+	name: "Adam",
+	surname: "Smit"
+}
+array = []
+array.push(employee)
+array.push(human)
+console.log(employee);
+console.log(employee["proffession"]);
+console.log(employee.salary.July);
+delete employee.name;
+console.log(employee.name);
+employee.name = "Kristofer"
+console.log(employee.name);
+
+</script>
